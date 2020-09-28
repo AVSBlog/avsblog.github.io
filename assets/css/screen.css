@@ -7,7 +7,8 @@
 }
 
 .bigsitetitle {
-    padding-top: 57px;
+    padding: 57px 10px 10px;
+    margin-bottom: 30px;
     background-color: #eff0eb;
 }
 
