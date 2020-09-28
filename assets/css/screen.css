@@ -4,6 +4,8 @@
 }
 .mainheading {
     padding: 1rem 0rem;
+    padding-top: 57px;
+    background: #d4f0fc;
 }
 
 a {
@@ -46,7 +48,6 @@ pre {
 .site-content {
     min-height: 60vh;
     padding-top: 1.5rem;
-    margin-top: 57px;
     transition: all 0.4s;
 }
 
