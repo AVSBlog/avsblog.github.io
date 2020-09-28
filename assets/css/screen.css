@@ -4,8 +4,11 @@
 }
 .mainheading {
     padding: 1rem 0rem;
+}
+
+.bigsitetitle {
     padding-top: 57px;
-    background-color: #d4f0fc;
+    background-color: #eff0eb;
 }
 
 a {
