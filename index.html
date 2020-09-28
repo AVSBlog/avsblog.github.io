@@ -15,7 +15,7 @@ title: Home
 
     {% for news in site.news_headlines %}
 
-        {% unless post.hidden %}
+        {% unless news.hidden %}
 
             {% include newsbox.html %}
 
