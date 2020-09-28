@@ -18,10 +18,8 @@
 <body class="{{layout}}">
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	</noscript>
-
 
 <!-- Begin Menu Navigation
 ================================================== -->
@@ -31,7 +29,7 @@
 
     <!-- Begin Logo -->
     <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    <img src="{{ site.baseurl }}/assets/images/logo.png" alt="{{ site.name }}">
     </a>
     <!-- End Logo -->
 
@@ -42,7 +40,6 @@
     <div class="collapse navbar-collapse" id="navbarMediumish">
 
         <!-- Begin Menu -->
-
             <ul class="navbar-nav ml-auto">
 
                 {% if page.url == "/" %}
@@ -53,7 +50,6 @@
                 <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
                 </li>
             </ul>
-
         <!-- End Menu -->
 
     </div>
@@ -64,7 +60,6 @@
 ================================================== -->
 
 <div class="site-content">
-
 <div class="container">
 
 <!-- Site Title
@@ -85,7 +80,7 @@
 </div>
 
 <!-- Categories Jumbotron
-================================================== -->
+================================================== 
 <div class="jumbotron fortags">
 	<div class="d-md-flex h-100">
 		<div class="col-md-4 transpdark align-self-center text-center h-100">
@@ -108,6 +103,7 @@
 		</div>
 	</div>
 </div>
+-->
 
 <!-- Begin Footer
 ================================================== -->
@@ -116,9 +112,6 @@
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
-            </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
             </div>
         </div>
     </div>

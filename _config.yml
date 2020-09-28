@@ -2,8 +2,6 @@
 name: "AVS Blog"
 title: "AVS Blog"
 description: "An AVS Community Blog"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
 baseurl: /
 include: ["_pages"]
 permalink: /:title/
