@@ -15,11 +15,11 @@ title: Home
 
     {% for news in site.news_headlines %}
 
-        {% if post.hidden != true %}
+        {% unless post.hidden %}
 
             {% include newsbox.html %}
 
-        {% endif %}
+        {% endunless %}
 
     {% endfor %}
 
