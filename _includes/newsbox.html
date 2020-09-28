@@ -5,7 +5,7 @@
             <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
                 <div class="h-100">
                     <div class="wrapthumbnail">
-                        <a href="{{ site.baseurl }}{{ news.url }}">
+                        <a href="{{ news.link }}">
                             {% if site.lazyimages == "enabled" %}
                             <img class="featured-box-img-cover lazyimg"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if news.image contains "://" %}{{ news.image }}{% else %}{{ site.baseurl }}/{{ news.image }}{% endif %}">
                             {% else %}
@@ -20,7 +20,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h2 class="card-title">
-                                <a class="text-dark" href="{{ site.baseurl }}{{ news.url }}">{{ news.title }}</a>
+                                <a class="text-dark" href="{{ news.link }}">{{ news.title }}</a>
                             </h2>
 
                             <h4 class="card-text">{{ news.excerpt }}</h4>
