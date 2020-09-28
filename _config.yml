@@ -40,6 +40,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
+
+# Other collections
+collections:
+  news_headlines:
+    hidden: true
     
 # Pagination 
 paginate: 6

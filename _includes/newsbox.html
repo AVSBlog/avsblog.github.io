@@ -1,16 +1,15 @@
-<!-- begin post -->
-{% assign author = site.authors[post.author] %}
+<!-- begin news -->
 <div class="col-md-6 mb-30px">
     <div class="listfeaturedtag h-100">
         <div class="row h-100">
             <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
                 <div class="h-100">
                     <div class="wrapthumbnail">
-                        <a href="{{ site.baseurl }}{{ post.url }}">
+                        <a href="{{ site.baseurl }}{{ news.url }}">
                             {% if site.lazyimages == "enabled" %}
-                            <img class="featured-box-img-cover lazyimg"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
+                            <img class="featured-box-img-cover lazyimg"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if news.image contains "://" %}{{ news.image }}{% else %}{{ site.baseurl }}/{{ news.image }}{% endif %}">
                             {% else %}
-                            <img class="featured-box-img-cover" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
+                            <img class="featured-box-img-cover" src="{% if news.image contains "://" %}{{ news.image }}{% else %}{{ site.baseurl }}/{{ news.image }}{% endif %}">
                             {% endif %}
                         </a>
                     </div>
@@ -21,10 +20,10 @@
                     <div class="card">
                         <div class="card-body">
                             <h2 class="card-title">
-                                <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                                <a class="text-dark" href="{{ site.baseurl }}{{ news.url }}">{{ news.title }}</a>
                             </h2>
 
-                            <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</h4>
+                            <h4 class="card-text">{{ news.excerpt }}</h4>
                         </div>
                         <div class="card-footer b-0 bg-white mt-auto">
                             <div class="wrapfooter">
@@ -37,4 +36,4 @@
         </div>
     </div>
 </div>
-<!-- end post -->
+<!-- end news -->
