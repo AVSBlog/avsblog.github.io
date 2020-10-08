@@ -2,7 +2,7 @@
 name: "AVS Blog"
 title: "AVS Blog"
 description: "Azure VMware Solution (AVS) Community Blog"
-baseurl: /
+baseurl: https://avs.ms
 include: ["_pages"]
 permalink: /:title/
 
@@ -14,6 +14,9 @@ authors:
   carlosv:
     name: "Carlos Villuendas"
     display_name: "Carlos Villuendas"
+  scholden:
+    name: "Scott Holden"
+    display_name: "Scott Holden"
 
 # Plugins
 plugins:
