@@ -6,7 +6,7 @@ categories: [ "AVS", "Azure VMware Solution", "Azure Backup", "Dennis Boeynaems"
 image: /assets/images/posts/2020-10-09/hcx-performance2.png
 ---
 
-*By: Dennis Boeynaems
+*By: Dennis Boeynaems @bluefridge*
 
 This article is about how to troubleshoot suboptimal performing migrations levering HCX in the context of Azure VMware solution
 
