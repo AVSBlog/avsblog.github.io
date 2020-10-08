@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  "How to improve HCX Performance"
+title:  "How to Improve HCX Performance"
 author: Dennis Boeynaems
 categories: [ "AVS", "Azure VMware Solution", "Azure Backup", "Dennis Boeynaems", "VMWare", "HCX", "HCX Performance", "Hybrid Cloud Interconnect" ]
-image: assets/images/posts/2020-10-09/hcx-performance2.png
+image: /assets/images/posts/2020-10-09/hcx-performance2.png
 ---
 
 *By: Dennis Boeynaems
-
-## Challenge
 
 This article is about how to troubleshoot suboptimal performing migrations levering HCX in the context of Azure VMware solution
 
