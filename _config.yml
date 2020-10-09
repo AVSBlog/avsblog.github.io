@@ -2,7 +2,7 @@
 name: "AVS Blog"
 title: "AVS Blog"
 description: "Azure VMware Solution (AVS) Community Blog"
-baseurl: https://avs.ms/
+baseurl: https://avs.ms
 include: ["_pages"]
 permalink: /:title/
 
