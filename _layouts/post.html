@@ -45,7 +45,7 @@ post_class: post-template
             <div class="after-post-author">
                 <div class="text-center text-md-left mb-4 mb-md-0">
                     {% if author.avatar %}
-                    <img class="author-thumb" src="{{site.baseurl}}{{ author.avatar }}" alt="{{ author.display_name }}">
+                    <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
                     {% endif %}
                     Written By {{ author.display_name }}
                 </div>
@@ -60,7 +60,7 @@ post_class: post-template
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
                     <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}categories#{{ category | replace: " ","-" }}">{{ category }}</a>
+                        <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -71,7 +71,7 @@ post_class: post-template
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
                     <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}tags#{{ tag | replace: " ","-" }}">#{{ tag }}</a>
+                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">#{{ tag }}</a>
                     </li>
                     {% endfor %}
                 </ul>
