@@ -26,22 +26,11 @@ The actual migrations themselves as well as the L2VLAN stretch are supported acr
 
 The most relevant being:
 
-% Please add the following required packages to your document preamble:
-% \usepackage{graphicx}
-% \usepackage[table,xcdraw]{xcolor}
-% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
-\begin{table}[]
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|l|}
-\hline
-\rowcolor[HTML]{340096} 
-{\color[HTML]{FFFFFF} \textbf{Appliance}} & {\color[HTML]{FFFFFF} \textbf{Purpose}}                                                   \\ \hline
-IX    & The interconnect appliance          \\ \hline
-NE                                        & Network extension, the appliance responsible for the high   performance of VLAN extension \\ \hline
-WANOP & Line conditioning and deduplication \\ \hline
-\end{tabular}%
-}
-\end{table}
+| Appliance 	| Purpose                                                                                   	|
+|-----------	|-------------------------------------------------------------------------------------------	|
+| IX        	| The interconnect appliance                                                                	|
+| NE        	| Network extension, the appliance responsible for the high   performance of VLAN extension 	|
+| WANOP     	| Line conditioning and deduplication                                                       	|
 
 Getting access and see how they perform is done by accessing the connector (the manager, on the cloud side is not accessible through SSH) directly on-prem.  Remember the connector is on-prem, the manager is in the cloud.  There is one connector on the source side it is paired to the manager on the cloud side.  You cannot connect multiple connectors to each other. 
 
