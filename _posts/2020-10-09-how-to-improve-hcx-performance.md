@@ -26,7 +26,7 @@ The actual migrations themselves as well as the L2VLAN stretch are supported acr
 
 The most relevant being:
 
-| Appliance   | Purpose                                                                                   	|
+| Appl   | Purpose                                                                                   	|
 |-  |-	|
 | `IX`       	| The interconnect appliance                                                                	|
 | `NE`      	| Network extension, the appliance responsible for the performance of VLAN extension 	|
