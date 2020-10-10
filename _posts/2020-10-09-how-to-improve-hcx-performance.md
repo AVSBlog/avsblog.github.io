@@ -42,25 +42,14 @@ On the prompt type ccli (to get into the HCX central CLI)
 ##### [admin]@ list
 List all appliances. 
 
-{| class="wikitable" style="text-align: center;"
-!style="background: rgb(196, 187, 187);"|'''Id '''
-!style="background: rgb(196, 187, 187);"|'''Node '''
-!style="background: rgb(196, 187, 187);"|'''Address '''
-!style="background: rgb(196, 187, 187);"|'''State '''
-!style="background: rgb(196, 187, 187);"|style="background: rgb(0, 0, 0);"| 
+{| class="wikitable"
+!style="background: rgb(196, 187, 187);"|'''Id 	Node 	Address 	State'''
 |-
-|0 
-|UAT-SM-IX-I1 
-|172.27.103.21:9443 
-|Connected 
-|style="background: rgb(0, 0, 0);"| 
+|0 	UAT-SM-IX-I1 	172.27.103.21:9443 	Connected
 |-
-|1 
-|UAT-SM-NE-I1 
-|172.27.103.22:9443 
-|Connected 
-|style="background: rgb(0, 0, 0);"| 
+|1 	UAT-SM-NE-I1 	172.27.103.22:9443 	Connected
 |}
+
 ##### [admin]@ go 0
 Activate the correct appliance based on the ID column (as show above)
 Here we are selecting the IX appliance (interconnect) as we want to investigate the performance of the interconnect                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
