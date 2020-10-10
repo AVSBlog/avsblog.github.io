@@ -27,9 +27,9 @@ The actual migrations themselves as well as the L2VLAN stretch are supported acr
 The most relevant being:
 
 | Appliance   | Purpose                                                                                   	|
-| ----------- | -------------------------------------------------------------------------------------------	|
+|-  |-	|
 | `IX`       	| The interconnect appliance                                                                	|
-| `NE`      	| Network extension, the appliance responsible for the high   performance of VLAN extension 	|
+| `NE`      	| Network extension, the appliance responsible for the performance of VLAN extension 	|
 | `WANOP`   	| Line conditioning and deduplication                                                       	|
 
 
