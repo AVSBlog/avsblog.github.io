@@ -32,6 +32,7 @@ The most relevant being:
 | `NE`      	| Network extension, the appliance responsible for the high   performance of VLAN extension 	|
 | `WANOP`   	| Line conditioning and deduplication                                                       	|
 
+
 Getting access and see how they perform is done by accessing the connector (the manager, on the cloud side is not accessible through SSH) directly on-prem.  Remember the connector is on-prem, the manager is in the cloud.  There is one connector on the source side it is paired to the manager on the cloud side.  You cannot connect multiple connectors to each other. 
 
 Ssh (or putty if you are on windows) admin@<connector IP address/hostname>
