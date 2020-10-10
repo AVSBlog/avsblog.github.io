@@ -26,11 +26,11 @@ The actual migrations themselves as well as the L2VLAN stretch are supported acr
 
 The most relevant being:
 
-| Appliance 	| Purpose                                                                                   	|
-|-----------	|-------------------------------------------------------------------------------------------	|
-| 'IX'      	| The interconnect appliance                                                                	|
-| 'NE'      	| Network extension, the appliance responsible for the high   performance of VLAN extension 	|
-| 'WANOP'   	| Line conditioning and deduplication                                                       	|
+| Appliance   | Purpose                                                                                   	|
+|-----------  |-------------------------------------------------------------------------------------------	|
+| `IX`       	| The interconnect appliance                                                                	|
+| `NE`      	| Network extension, the appliance responsible for the high   performance of VLAN extension 	|
+| `WANOP`   	| Line conditioning and deduplication                                                       	|
 
 Getting access and see how they perform is done by accessing the connector (the manager, on the cloud side is not accessible through SSH) directly on-prem.  Remember the connector is on-prem, the manager is in the cloud.  There is one connector on the source side it is paired to the manager on the cloud side.  You cannot connect multiple connectors to each other. 
 
