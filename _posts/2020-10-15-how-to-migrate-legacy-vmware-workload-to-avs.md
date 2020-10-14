@@ -8,7 +8,7 @@ image: assets/images/posts/2020-10-15/esxi-upgrade-for-hcx-front-cover.png
 
 *By: Ravi Kaur @induswater0130*
 
-## Challenge 
+## Challenge
 
 Some customers have workloads that are currently hosted on legacy VMware environments which are not compatible with VMware Hybrid Cloud Interconnect (HCX). In order to save time and complexity, these customers are keen to use VMware HCX as the migration / mobility tool to migrate the virtual machines On-Prem to AVS and maintain the IP / MAC address. 
 
