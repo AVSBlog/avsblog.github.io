@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to migrate legacy VMware workload to Azure VMware Solutions"
+title:  "How to Migrate Legacy VMware Workload to Azure VMware Solutions"
 author: ravikaur
 categories: [ AVS, "Azure VMware Solution", "legacy VMware", "Migration", "V2V Migration", "Hybrid Cloud Interconnect", "HCX", "VMware 4.x to VMware 5.x", "VMware 4.x to VMware 6.x" ]
 image: assets/images/posts/2020-10-15/esxi-upgrade-for-hcx-front-cover.png
