@@ -40,11 +40,11 @@ Below are the complete list of steps that depict the migration path from On Prem
 16.	Access the migrated virtual machines in AVS and conduct basic checks on the server and application level
 17.	Protect migrated Virtual machines using HCX / SRM / ASR
 
-## V2V migration - Pros
+## V2V Migration - Pros
 
 The V2V migration is a very simplified migration methodology that will allow customers to move to Azure VMware Solutions at a fast pace
 
-## V2V migration - Cons
+## V2V Migration - Cons
 
 Minor downtime will be experienced by the applications. After cloning, application server will be shutdown in vSphere 4.x environment and the cloned VM will be started in the vSphere 5.x / 6.x environment
 
