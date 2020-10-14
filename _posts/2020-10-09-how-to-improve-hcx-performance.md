@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Improve HCX Performance"
-author: Dennis Boeynaems
+author: bluefridge
 categories: [ "AVS", "Azure VMware Solution", "Azure Backup", "Dennis Boeynaems", "VMWare", "HCX", "HCX Performance", "Hybrid Cloud Interconnect" ]
 image: /assets/images/posts/2020-10-09/hcx-performance2.png
 ---
