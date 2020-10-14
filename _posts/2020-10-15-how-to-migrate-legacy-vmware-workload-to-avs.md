@@ -3,22 +3,22 @@ layout: post
 title:  "How to migrate legacy VMware workload to Azure VMware Solutions"
 author: ravikaur
 categories: [ AVS, "Azure VMware Solution", "legacy VMware", "Migration", "V2V Migration" "Hybrid Cloud Interconnect" "HCX", "VMware 4.x to VMware 5.x", "VMware 4.x to VMware 6.x"]
-image: /assets/images/posts/2020-10-15/ESXi-upgrade-for-HCX-front-cover.png
+image: assets/images/posts/2020-10-15/esxi-upgrade-for-hcx-front-cover.png
 ---
 
 *By: Ravi Kaur @induswater0130*
 
-## Challenge : 
+## Challenge 
 
 Some customers have workloads that are currently hosted on legacy VMware environments which are not compatible with VMware Hybrid Cloud Interconnect (HCX). In order to save time and complexity, these customers are keen to use VMware HCX as the migration / mobility tool to migrate the virtual machines On-Prem to AVS and maintain the IP / MAC address. 
 
-## Solution : 
+## Solution
 
 Customers can use the interim V2V migrate methodology that will allow HCX compatibility for On Prem infrastructure. 
 
-![ESXi Upgrade for HCX](/assets/images/posts/2020-10-15/ESXi-upgrade-for-HCX.png)
+![ESXi Upgrade for HCX](assets/images/posts/2020-10-15/esxi-upgrade-for-hcx.png)
 
-## Upsupported VMware Infrastrucutre to Azure VMware Solution - Upgrade and Migration steps : 
+## Upsupported VMware Infrastrucutre to Azure VMware Solution - Upgrade and Migration steps
 
 Below are the complete list of steps that depict the migration path from On Prem legacy unsupported infrastructure to Azure VMware Solutions. 
 1.	Deploy ESXi 5.x / 6.x hosts and vCenter servers with evaluation license and configure vDS on same
@@ -39,11 +39,11 @@ Below are the complete list of steps that depict the migration path from On Prem
 16.	Access the migrated virtual machines in AVS and conduct basic checks on the server and application level
 17.	Protect migrated Virtual machines using HCX / SRM / ASR
 
-## V2V migration - Pros : 
+## V2V migration - Pros
 
 The V2V migration is a very simplified migration methodology that will allow customers to move to Azure VMware Solutions at a fast pace
 
-## V2V migration - Cons : 
+## V2V migration - Cons
 
 Minor downtime will be experienced by the applications. After cloning, application server will be shutdown in vSphere 4.x environment and the cloned VM will be started in the vSphere 5.x / 6.x environment
 
