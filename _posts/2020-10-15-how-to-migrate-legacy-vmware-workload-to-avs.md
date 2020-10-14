@@ -16,7 +16,7 @@ Some customers have workloads that are currently hosted on legacy VMware environ
 
 Customers can use the interim V2V migrate methodology that will allow HCX compatibility for On Prem infrastructure. 
 
-![ESXi Upgrade for HCX](assets/images/posts/2020-10-15/esxi-upgrade-for-hcx.png)
+![ESXi Upgrade for HCX](/assets/images/posts/2020-10-15/esxi-upgrade-for-hcx.png)
 
 ## Upsupported VMware Infrastrucutre to Azure VMware Solution - Upgrade and Migration steps
 
