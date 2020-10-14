@@ -2,7 +2,7 @@
 layout: post
 title:  "How to migrate legacy VMware workload to Azure VMware Solutions"
 author: ravikaur
-categories: [ AVS, "Azure VMware Solution", "legacy VMware", "Migration", "V2V Migration" "Hybrid Cloud Interconnect" "HCX", "VMware 4.x to VMware 5.x", "VMware 4.x to VMware 6.x"]
+categories: [ AVS, "Azure VMware Solution", "legacy VMware", "Migration", "V2V Migration" "Hybrid Cloud Interconnect" "HCX", "VMware 4.x to VMware 5.x", "VMware 4.x to VMware 6.x" ]
 image: assets/images/posts/2020-10-15/esxi-upgrade-for-hcx-front-cover.png
 ---
 
@@ -20,7 +20,8 @@ Customers can use the interim V2V migrate methodology that will allow HCX compat
 
 ## Upsupported VMware Infrastrucutre to Azure VMware Solution - Upgrade and Migration steps
 
-Below are the complete list of steps that depict the migration path from On Prem legacy unsupported infrastructure to Azure VMware Solutions. 
+Below are the complete list of steps that depict the migration path from On Prem legacy unsupported infrastructure to Azure VMware Solutions
+
 1.	Deploy ESXi 5.x / 6.x hosts and vCenter servers with evaluation license and configure vDS on same
 2.	Create Swing Space that is presented to all ESXi hosts in both vSphere 4.x and vSphere 5.x / 6.x environment
 3.	Virtual Machines that need to be migrated can be cloned and the clone can be placed in the swing space
