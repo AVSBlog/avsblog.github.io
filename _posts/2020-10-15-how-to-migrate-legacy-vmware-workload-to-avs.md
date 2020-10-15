@@ -6,7 +6,7 @@ categories: [ AVS, "Azure VMware Solution", "legacy VMware", "Migration", "V2V M
 image: assets/images/posts/2020-10-15/esxi-upgrade-for-hcx-front-cover.png
 ---
 
-*By: Ravi Kaur @induswater0130*
+*By: Ravi Kaur @induswater_ravi*
 
 ## Challenge
 
