@@ -17,6 +17,12 @@ authors:
   scholden:
     name: "Scott Holden"
     display_name: "Scott Holden"
+  dennisb:
+    name: "Dennis Boeynaems"
+    display_name: "Dennis Boeynaems"
+  ravik:
+    name: "Ravi Kaur"
+    display_name: "Ravi Kaur"
 
 # Plugins
 plugins:
