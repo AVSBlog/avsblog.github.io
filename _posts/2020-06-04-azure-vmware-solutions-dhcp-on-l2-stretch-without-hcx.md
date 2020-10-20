@@ -3,7 +3,7 @@ layout: post
 title:  "Azure VMware Solutions: DHCP on L2 Stretch w/ HCX"
 author: tredavis
 categories: [ "AVS", "Azure", "Azure VMware Solution", "Microsoft", "DHCP", "tredavis", "VMWare", "HCX", "L2 Stretch" ]
-image: assets/images/posts/2020-06-04/step1.jpg
+image: assets/images/posts/2020-06-04/step3.jpg
 ---
 *By: Trevor Davis (Microsoft)*
 
