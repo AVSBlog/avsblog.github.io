@@ -26,7 +26,7 @@ By combining these two solutions organizations can realize a vSphere based cloud
 
 To deliver the solution Azure FileSync is installed on the File Servers before the migration to AVS, all files are sync'd to Azure File Storage. As files are needed, they are pulled down to the file server and kept locally for a pre-determined amount of time, as they become "cold" again, they are removed from the File Server freeing up space.​​​​​​
 
-The following few sections will have a narrow focus on Azure Files and AVS, for a great blog series which goes into deep detail on Azure Files check out my colleague John Kelbley's blog series.  Part 1, Part 2, Part 3  
+The following few sections will have a narrow focus on Azure Files and AVS, for a great blog series which goes into deep detail on Azure Files check out my colleague John Kelbley's blog series [Part 1](https://azureninjas.com/avoid-defer-costly-storage-upgrades-with-azure-file-sync-part-1/), [Part 2](https://azureninjas.com/avoid-defer-costly-storage-upgrades-with-azure-file-sync-part-2/), [Part 3](https://azureninjas.com/avoid-defer-costly-storage-upgrades-with-azure-file-sync-part-3-low-downtime/)
 
 ## How Does Azure FileSync Work and Help AVS?
  
