@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Azure VMware Solution and Azure FileSync"
+title:  "Azure VMware Solutions and Azure FileSync"
 author: tredavis
 categories: [ "AVS", "Azure", "Azure VMware Solution", "Microsoft", "Azure Files", "tredavis", "VMWare", "Azure Filesync" ]
 image: assets/images/posts/2020-03-24/1.png
@@ -19,7 +19,7 @@ This is never going to happen in the majority of businesses and if it does, it's
 
 ## Solution
 
-Azure VMware Solution and Azure Files.
+Azure VMware Solutions and Azure Files.
 
 By combining these two solutions organizations can realize a vSphere based cloud solution with a simple lift and shift, no re-platforming, no IP changes, no architecture changes. Additionally, storage footprint is shrunk in vSphere but no change what-so-ever to the file server hierarchy, security or files made available.
 
@@ -70,4 +70,4 @@ When that video file becomes "cold", you will see the size to fall back to the s
 
 ## Conclusion
 
-Through modernization of file services via Azure FileSync organizations enable a more efficient and cost effective migration to Azure VMware Solution.
+Through modernization of file services via Azure FileSync organizations enable a more efficient and cost effective migration to Azure VMware Solutions.
