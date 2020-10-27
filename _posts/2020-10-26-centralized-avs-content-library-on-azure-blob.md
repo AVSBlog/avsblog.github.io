@@ -51,7 +51,7 @@ After running the script you will see additional files in the root directory, an
 
 The Content Library on your local machine is now prepped to be uploaded to Azure Blob Storage.  Now you need to create a Storage Account and Blob Container.  
 
-If you have already have a storage account you want to use skip to [step 3.2](#Step-3-2-Create-Blob-Container) and if you also already have a Blob container you want to use in that storage account skip to Step 4.
+If you have already have a storage account you want to use skip ahead to step 3.2 and if you also already have a Blob container you want to use in that storage account skip to Step 4.
 
 #### Step 3.1 - Create Storage Account
 
