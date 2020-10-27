@@ -33,7 +33,7 @@ If you need guidance on how to export a VM from vCenter as an OVF template [foll
 >[NOTE]
 >OVA files are not able to be consumed when using an external content library in this manner, so for all your VM templates use the OVF format.
 
-![](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/123.png)
+![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/123.png)
 
 ### Step 2 - Prepare Content Library on Local Disk
 
@@ -41,11 +41,11 @@ Now that you have your Content Library folder built on your local machine you wi
 
 This script will need run using python, what I did was [download](https://www.python.org/downloads/) and install python on my windows machine and execute the following command against the root directory.
 
-![](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/4.png)
+![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/4.png)
 
 After running the script you will see additional files in the root directory, and each of the sub-directories, similar to what is shown below.
 
-![](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/567.png)
+![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/567.png)
 
 ### Step 3 - Prepare Azure Storage
 
@@ -57,15 +57,15 @@ If you have already have a storage account you want to use skip to [step 3.2](#S
 
 From the Azure portal search for *storage accounts* and select the item as shown in the screenshot below. 
 
-![](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/createstorageaccount.png)
+![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/createstorageaccount.png)
 
 In the *Create storage account* screen choose the subscription and the resource group you want to use (or create a new one).  Input a storage account name (any name you like) and choose the location where you want the storage account deployed (typically the same region as your Azure VMware Solution Private Cloud). In the subsequent screens I just kept all the defaults.
 
-![](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/createstorageaccount2.png)
+![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/createstorageaccount2.png)
 
 Here are all the configuration parameters I used.  When you get to this screen just choose the *Create* button and the storage account will get created.
 
-![](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/createstorageaccount3.png)
+![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/createstorageaccount3.png)
 
 #### Step 3.2 - Create Blob Container
 
@@ -73,17 +73,17 @@ At this point I've moved from using the Azure portal to using the [Azure Storage
 
 In Azure Storage Explorer log into your Azure account and find the storage account you just created and then choose to *Create Blob Container*.  Then give the blob container a name.
 
-![](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/createblob.png)
+![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/createblob.png)
 
 ### Step 4 - Upload Files
 
 Now the blob container exists you need to upload the Content Library directory with all the sub-directories to the blob container.  Do this using the upload folder option as shown here.
  
-![](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/upload.png)
+![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/upload.png)
 
 After the folder has been uploaded you will need to get a copy of the link to the *lib.json* file as shown here.  Copy the link and save it for the next steps.
 
-![](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/copyurl.png)
+![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/copyurl.png)
 
 ### Step 5 - Create Content Library in vCenter
 
@@ -93,7 +93,7 @@ Notice the option I selected was *Download content when needed*, this will only 
 
 In the subsequent fields choose the options you prefer.
 
-![](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/contentlibraryurl.png)
+![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/contentlibraryurl.png)
 
 After subscribing you should see the Content Library with all the items you uploaded, but with a space consumed of 0 byte.
 
