@@ -10,11 +10,11 @@ image: assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-b
 
 ## Challenge  
 
-[Azure VMware Solution Private Cloud](https://azure.microsoft.com/en-us/services/azure-vmware/) as you may be aware is a hyper-converged VMware SDDC.  Using [vCenter Content Libraries](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vm_admin.doc/GUID-254B2CE8-20A8-43F0-90E8-3F6776C2C896.html) of course is a widely used feature of vCenter and at times can be many hundred gigs.  
+[Azure VMware Solution Private Cloud](https://azure.microsoft.com/services/azure-vmware/) as you may be aware is a hyper-converged VMware SDDC.  Using [vCenter Content Libraries](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vm_admin.doc/GUID-254B2CE8-20A8-43F0-90E8-3F6776C2C896.html) of course is a widely used feature of vCenter and at times can be many hundred gigs.  
 
 Using the datastore on the Azure VMware Solution Private Cloud may not be the most efficient use of that high performance disk, also using the disk of the Private Cloud does not allow for the sharing of the content libraries across Azure VMware Solution Private Clouds.  
 
-To address this, consider using [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) to create a centralized vCenter Content Library.  The process to do this is largely identical to what is outlined on [William Lam's Blog Post](https://www.virtuallyghetto.com/2015/06/creating-your-own-3rd-party-content-library-for-vsphere-6-0-vcloud-director-5-x.html)
+To address this, consider using [Azure Blob Storage](https://azure.microsoft.com/services/storage/blobs/) to create a centralized vCenter Content Library.  The process to do this is largely identical to what is outlined on [William Lam's Blog Post](https://www.virtuallyghetto.com/2015/06/creating-your-own-3rd-party-content-library-for-vsphere-6-0-vcloud-director-5-x.html)
 
 Ok, so let us get started.  We are going to create a centralized vCenter Content Library on Azure Blob Storage and connect that to Azure VMware Solution Private Cloud.
 
@@ -55,7 +55,7 @@ If you have already have a storage account you want to use skip to [step 3.2](#S
 
 #### Step 3.1 - Create Storage Account
 
-From the Azure portal search for *storage accounts* and select the item as shown in the screenshot below. 
+From the Azure portal search for *storage accounts* and select the item as shown in the screenshot below.
 
 ![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/createstorageaccount.png)
 
@@ -69,7 +69,7 @@ Here are all the configuration parameters I used.  When you get to this screen j
 
 #### Step 3.2 - Create Blob Container
 
-At this point I've moved from using the Azure portal to using the [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/), in my view it's the easiest way to manage the storage account, but there are other ways you can do this if you choose.
+At this point I've moved from using the Azure portal to using the [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/), in my view it's the easiest way to manage the storage account, but there are other ways you can do this if you choose.
 
 In Azure Storage Explorer log into your Azure account and find the storage account you just created and then choose to *Create Blob Container*.  Then give the blob container a name.
 
@@ -78,7 +78,7 @@ In Azure Storage Explorer log into your Azure account and find the storage accou
 ### Step 4 - Upload Files
 
 Now the blob container exists you need to upload the Content Library directory with all the sub-directories to the blob container.  Do this using the upload folder option as shown here.
- 
+
 ![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/upload.png)
 
 After the folder has been uploaded you will need to get a copy of the link to the *lib.json* file as shown here.  Copy the link and save it for the next steps.
