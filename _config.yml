@@ -2,7 +2,7 @@
 name: "AVS Blog"
 title: "AVS Blog"
 description: "Azure VMware Solution (AVS) Community Blog"
-baseurl: https://avs.ms
+baseurl: /
 include: ["_pages"]
 permalink: /:title/
 
@@ -45,7 +45,7 @@ collections:
     hidden: true
     
 # Pagination 
-paginate: 12
+paginate: 6
 paginate_path: /page:num/
     
 # Other
