@@ -59,7 +59,7 @@ From the Azure portal search for *storage accounts* and select the item as shown
 
 ![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/createstorageaccount.png)
 
-In the *Create storage account* screen choose the subscription and the resource group you want to use (or create a new one).  Input a storage account name (any name you like) and choose the location where you want the storage account deployed (typically the same region as your Azure VMware Solution Private Cloud). In the subsequent screens I just kept all the defaults. 
+In the *Create storage account* screen choose the subscription and the resource group you want to use (or create a new one).  Input a storage account name (any name you like) and choose the location where you want the storage account deployed (typically the same region as your Azure VMware Solution Private Cloud). In the subsequent screens I just kept all the defaults.
 
 ![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/createstorageaccount2.png)
 
