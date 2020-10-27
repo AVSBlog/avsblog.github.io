@@ -8,7 +8,7 @@ image: assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-b
 
 *By: Trevor Davis, Azure Global Blackbelt - Azure VMware Solution - [@vTrevorDavis](https://twitter.com/vtrevordavis)*
 
-## Challenge
+## Challenge  
 
 [Azure VMware Solution Private Cloud](https://azure.microsoft.com/en-us/services/azure-vmware/) as you may be aware is a hyper-converged VMware SDDC.  Using [vCenter Content Libraries](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vm_admin.doc/GUID-254B2CE8-20A8-43F0-90E8-3F6776C2C896.html) of course is a widely used feature of vCenter and at times can be many hundred gigs.  
 
