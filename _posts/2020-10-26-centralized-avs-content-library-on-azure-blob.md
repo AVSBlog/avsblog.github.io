@@ -39,7 +39,7 @@ If you need guidance on how to export a VM from vCenter as an OVF template [foll
 
 Now that you have your Content Library folder built on your local machine you will need to run a script against the root folder of the hierarchy.  The script can be found [here](https://github.com/lamw/vghetto-scripts/blob/master/python/make_vcsp_2015.py).
 
-This script will need run using python, what I did was [download](https://www.python.org/downloads/) and install python on my windows machine and execute the following command against the root directory.
+This script will need to run using python, what I did was [download](https://www.python.org/downloads/) and install python on my windows machine and execute the following command against the root directory.
 
 ![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/4.png)
 
