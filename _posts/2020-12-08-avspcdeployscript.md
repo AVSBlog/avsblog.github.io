@@ -16,6 +16,7 @@ After completion there will be a summary of the Private Cloud after deployment (
 Going to work to add some post deployment add-ons soon.  But in the meantime, hope this may provide some value.
 
 PLEASE NOTE: The following are requirements of the script.
+
 [Powershell 7](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1#installing-the-msi-package)
 [Azure Powershell](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps)
 [Az.VMWare cmdlets](https://docs.microsoft.com/en-us/powershell/module/az.vmware/)
