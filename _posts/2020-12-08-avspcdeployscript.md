@@ -11,7 +11,7 @@ image: assets/images/posts/2020-12-09/avspcdeploy2.png
 
 This script will prompt for the inputs, validate your subscription is enabled for deployment and then deploy an Azure VMware Solution Private Cloud.  
 
-After completion there will be a summary of the Private Cloud after deployment (see image below).
+After completion there will be a summary of the Private Cloud after deployment.  Watch video below for an end to end demo.
 
 Going to work to add some post deployment add-ons soon.  But in the meantime, hope this may provide some value.
 
@@ -23,4 +23,4 @@ PLEASE NOTE: The following are requirements of the script.
 
 [https://github.com/tredavismicrosoft/scripts/blob/main/AVS_PC_Deploy.ps1](https://github.com/tredavismicrosoft/scripts/blob/main/AVS%20Private%20Cloud%20Deployment/AVS_PC_Deploy.ps1)
 
-![Output](/assets/images/posts/2020-12-09/avspcdeploy2.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5GVN3oWVZMk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
