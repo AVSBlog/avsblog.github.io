@@ -3,7 +3,7 @@ layout: post
 title:  "Azure VMware Solution Deployment Script"
 author: tredavis
 categories: [ AVS, "Azure VMware Solution", Script, "vSphere", Microsoft, Azure, Lab]
-image: https://i0.wp.com/www.virtuallyghetto.com/wp-content/uploads/2020/10/automated-nested-vsphere-lab-on-vmware-cloud-azure-vmware-solution-1.png
+image: https://github.com/AVSBlog/avsblog.github.io/blob/master/assets/images/posts/avspcdeploy.png
 ---
 
 *By: Trevor Davis, Azure Global Blackbelt - Azure VMware Solution - [@vTrevorDavis](https://twitter.com/vtrevordavis)*
