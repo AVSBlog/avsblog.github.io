@@ -15,6 +15,6 @@ After completion there will be a summary of the Private Cloud after deployment (
 
 Going to work to add some post deployment add-ons soon.  But in the meantime, hope this may provide some value.
 
-[https://github.com/tredavismicrosoft/scripts/blob/main/AVS_PC_Deploy.ps1](https://github.com/tredavismicrosoft/scripts/blob/main/AVS_PC_Deploy.ps1)
+[https://github.com/tredavismicrosoft/scripts/blob/main/AVS_PC_Deploy.ps1](https://github.com/tredavismicrosoft/scripts/blob/main/AVS%20Private%20Cloud%20Deployment/AVS_PC_Deploy.ps1)
 
 ![Output](/assets/images/posts/2020-12-09/avspcdeploy2.png)
