@@ -16,4 +16,4 @@ Hope to add some post deployment add-ons soon.  But in the meantime, hope this m
 
 [https://github.com/tredavismicrosoft/scripts/blob/main/AVS_PC_Deploy.ps1](https://github.com/tredavismicrosoft/scripts/blob/main/AVS_PC_Deploy.ps1)
 
-image: assets/images/posts/avspcdeploy.png
+![VPN Config File](/assets/images/posts/avspcdeploy.png)
