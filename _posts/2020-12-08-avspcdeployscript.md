@@ -13,7 +13,7 @@ This script will prompt for the inputs, validate your subscription is enabled fo
 
 After completion there will be a summary of the Private Cloud after deployment (see image below).
 
-Going to work to add some post deployment add-ons soon.  But in the meantime, hope this may provide some value. 
+Going to work to add some post deployment add-ons soon.  But in the meantime, hope this may provide some value.
 
 [https://github.com/tredavismicrosoft/scripts/blob/main/AVS_PC_Deploy.ps1](https://github.com/tredavismicrosoft/scripts/blob/main/AVS_PC_Deploy.ps1)
 
