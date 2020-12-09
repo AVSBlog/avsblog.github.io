@@ -3,7 +3,8 @@ layout: post
 title:  "Azure VMware Solution Deployment Script"
 author: tredavis
 categories: [ AVS, "Azure VMware Solution", Script, "vSphere", Microsoft, Azure, Lab]
-image: https://github.com/AVSBlog/avsblog.github.io/blob/master/assets/images/posts/avspcdeploy.png
+image: assets/images/posts/avspcdeploy.png
+
 ---
 
 *By: Trevor Davis, Azure Global Blackbelt - Azure VMware Solution - [@vTrevorDavis](https://twitter.com/vtrevordavis)*
