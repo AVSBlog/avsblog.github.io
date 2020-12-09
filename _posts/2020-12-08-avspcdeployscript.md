@@ -23,4 +23,4 @@ PLEASE NOTE: The following are requirements of the script.
 
 [https://github.com/tredavismicrosoft/scripts/blob/main/AVS_PC_Deploy.ps1](https://github.com/tredavismicrosoft/scripts/blob/main/AVS%20Private%20Cloud%20Deployment/AVS_PC_Deploy.ps1)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5GVN3oWVZMk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5GVN3oWVZMk?rel=0&amp;vq=hd720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
