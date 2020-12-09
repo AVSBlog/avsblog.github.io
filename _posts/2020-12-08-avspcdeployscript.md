@@ -8,7 +8,6 @@ image: https://github.com/AVSBlog/avsblog.github.io/blob/master/assets/images/po
 
 *By: Trevor Davis, Azure Global Blackbelt - Azure VMware Solution - [@vTrevorDavis](https://twitter.com/vtrevordavis)*
 
-## AVS Private Cloud Deployment Script
 
 This script will prompt for the inputs, validate your subscription is enabled for deployment and then deploy an Azure VMware Solution Private Cloud.  Then provide a summary of the Private Cloud after deployment.
 
