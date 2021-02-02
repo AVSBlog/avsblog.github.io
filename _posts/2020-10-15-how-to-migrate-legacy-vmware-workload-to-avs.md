@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to Migrate Legacy VMware Workload to Azure VMware Solutions"
+title:  "How to Migrate Legacy VMware Workload to Azure VMware Solution"
 author: ravik
 categories: [ AVS, "Azure VMware Solution", "legacy VMware", "Migration", "V2V Migration", "Hybrid Cloud Interconnect", "HCX", "VMware 4.x to VMware 5.x", "VMware 4.x to VMware 6.x" ]
 image: assets/images/posts/2020-10-15/esxi-upgrade-for-hcx-front-cover.png
@@ -20,7 +20,7 @@ Customers can use the interim V2V migrate methodology that will allow HCX compat
 
 ## Unsupported VMware Infrastructure to Azure VMware Solution - Upgrade and Migration steps
 
-Below are the complete list of steps that depict the migration path from On Prem legacy unsupported infrastructure to Azure VMware Solutions
+Below are the complete list of steps that depict the migration path from On Prem legacy unsupported infrastructure to Azure VMware Solution
 
 1.	Deploy ESXi 5.x / 6.x hosts and vCenter servers with evaluation license and configure vDS on same
 2.	Create Swing Space that is presented to all ESXi hosts in both vSphere 4.x and vSphere 5.x / 6.x environment
@@ -29,7 +29,7 @@ Below are the complete list of steps that depict the migration path from On Prem
 5.	After verifying the  cloned virtual machines in the 5.x / 6.x  environment, shut down the VM on the 4.x environment
 6.	Start the clone of the virtual machine in the 5.x / 6.x environment and upgrade the VM Tools and Virtual Machine Hardware
 7.	Conduct basic checks on the server and the application on the vSphere 5.x / 6.x infrastructure 
-8.	Applications are now sitting on HCX supported VMware infrastructure and they can now be migrated into Azure VMware Solutions  
+8.	Applications are now sitting on HCX supported VMware infrastructure and they can now be migrated into Azure VMware Solution
 9.	Deploy AVS private Cloud in Azure and HCX Manager will be deployed in AVS
 10.	Deploy HCX on Prem on the 5.x / 6.x vCenter server
 11.	Log on to the 5.x / 6.x vCenter server On Prem and from the HCX plugin create a Site Pair between the On Prem and AVS in Azure
@@ -42,7 +42,7 @@ Below are the complete list of steps that depict the migration path from On Prem
 
 ## V2V Migration - Pros
 
-The V2V migration is a very simplified migration methodology that will allow customers to move to Azure VMware Solutions at a fast pace
+The V2V migration is a very simplified migration methodology that will allow customers to move to Azure VMware Solution at a fast pace
 
 ## V2V Migration - Cons
 

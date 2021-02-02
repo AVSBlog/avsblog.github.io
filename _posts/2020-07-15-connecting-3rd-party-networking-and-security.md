@@ -41,7 +41,7 @@ LinkedIn: https://www.linkedin.com/in/vcdx076/
 
 **Trevor Davis**
 
-Azure VMware Solutions, Sr. Technical Specialist (Microsoft)  
+Azure VMware Solution, Sr. Technical Specialist (Microsoft)  
 Twitter: @vTrevorDavis  
 LinkedIn: https://www.linkedin.com/in/trevorpdavis/  
 
