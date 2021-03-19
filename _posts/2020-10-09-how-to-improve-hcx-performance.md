@@ -14,7 +14,6 @@ This article is about how to troubleshoot suboptimal performing migrations lever
 
 As a reminder here’s a quick recap on how HCX can be setup
 
-#### HCX over IPSEC (only for the purpose of running proof of concepts/tests or demos
 
 ![HCX over IPSEC](/assets/images/posts/2020-10-09/hcx-performance1.png)
 
