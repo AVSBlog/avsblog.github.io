@@ -39,7 +39,7 @@ If you need guidance on how to export a VM from vCenter as an OVF template [foll
 
 Now that you have your Content Library folder built on your local machine you will need to run a script against the root folder of the hierarchy.  The script can be found [here](https://github.com/lamw/vghetto-scripts/blob/master/python/make_vcsp_2015.py).
 
-This script will need run using python, what I did was [download](https://www.python.org/downloads/) and install python on my windows machine and execute the following command against the root directory.
+This script will need to run using python, what I did was [download](https://www.python.org/downloads/) and install python on my windows machine and execute the following command against the root directory.
 
 ![image](/assets/images/posts/2020-10-26-centralized-avs-content-library-on-azure-blob/4.png)
 
@@ -51,7 +51,7 @@ After running the script you will see additional files in the root directory, an
 
 The Content Library on your local machine is now prepped to be uploaded to Azure Blob Storage.  Now you need to create a Storage Account and Blob Container.  
 
-If you have already have a storage account you want to use skip to [step 3.2](#Step-3-2-Create-Blob-Container) and if you also already have a Blob container you want to use in that storage account skip to Step 4.
+If you have already have a storage account you want to use skip ahead to step 3.2 and if you also already have a Blob container you want to use in that storage account skip to Step 4.
 
 #### Step 3.1 - Create Storage Account
 

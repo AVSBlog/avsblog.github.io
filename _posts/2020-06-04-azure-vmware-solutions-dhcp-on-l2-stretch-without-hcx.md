@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Azure VMware Solutions: DHCP on L2 Stretch w/ HCX"
+title:  "Azure VMware Solution: DHCP on L2 Stretch w/ HCX"
 author: tredavis
 categories: [ "AVS", "Azure", "Azure VMware Solution", "Microsoft", "DHCP", "tredavis", "VMWare", "HCX", "L2 Stretch" ]
 image: assets/images/posts/2020-06-04/step3.jpg
@@ -9,7 +9,7 @@ image: assets/images/posts/2020-06-04/step3.jpg
 
 ## Challenge
 
-By default ​​​​​​​DHCP will not work for VMs on the HCX L2 stretch network in Azure VMware Solutions when the DHCP server lives in the organization's on-premises datacenter.  This is because NSX by default will block all DHCP requests from traversing the L2 stretch.  But not to worry, there is a very simple solution.
+By default ​​​​​​​DHCP will not work for VMs on the HCX L2 stretch network in Azure VMware Solution when the DHCP server lives in the organization's on-premises datacenter.  This is because NSX by default will block all DHCP requests from traversing the L2 stretch.  But not to worry, there is a very simple solution.
  
 ## Step 1: Get Destination Network Name
 

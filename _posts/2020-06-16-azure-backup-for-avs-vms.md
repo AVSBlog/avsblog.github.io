@@ -1,39 +1,31 @@
 ---
 layout: post
-title:  "Azure Backup for Azure VMware Solutions Virtual Machines"
+title:  "Azure Backup for Azure VMware Solution Virtual Machines"
 author: tredavis
 categories: [ AVS, "Azure VMware Solution", "Azure Backup", "tredavis", "VMWare" ]
 image: assets/images/posts/2020-06-16/2020-06-16.png
 ---
 
-Azure Backup for Azure VMware Solutions Virtual Machines
-## Challenge 
-You have vSphere-based workloads running in Azure on Azure VMware Solutions (AVS).  But of course, things happen, and backups of these virtual machines (VMs) are still a requirement. 
+Azure Backup for Azure VMware Solution Virtual Machines
 
- 
+## Challenge
+
+You have vSphere-based workloads running in Azure on Azure VMware Solution (AVS).  But of course, things happen, and backups of these virtual machines (VMs) are still a requirement. 
 
 One choice would be to use the existing on-premises backup solution and backup the VMs from AVS to on-premises.  For multiple reasons that would not be the ideal solution, most importantly proximity to workloads and cost. 
 
- 
-
 In general, there will be charges incurred when taking data from Azure and pulling it back to on-premises.  Pulling all backup data daily from Azure to on-premises would not be an ideal situation financially or architecturally.
 
- 
-
 ## Solution
+
 One of the major benefits of VMs running on vSphere in Azure is the proximity and integration with Azure services. 
 
- 
-
-Knowing that backups are a critical need for AVS workloads, Microsoft have integrated Azure VMware Solutions with Azure Backup. 
-
- 
+Knowing that backups are a critical need for AVS workloads, Microsoft have integrated Azure VMware Solution with Azure Backup.
 
 Let's look at the high-level architecture, installation, and some key features.
 
- 
-
 ## Architecture
+
 ![Architeture](/assets/images/posts/2020-06-16/2020-06-16.png)
 
 While not detailed, this picture hopefully provides a good overview.  The Microsoft Azure Backup Server (MABS) integrates with vCenter server in AVS.  VM backups are written to the MABS, and the MABS integrates with Azure Recovery Services Vault to store recovery points of the backups (more detail on this later).
@@ -93,4 +85,5 @@ For a detailed guide on how to install and operationalize Azure Backup and AVS p
 ![Protection Group](/assets/images/posts/2020-06-16/protectiongroup.png)
 
 ## Learn More
-By no means was that an exhaustive review of Azure Backup and Azure VMware Solutions integration, but hopefully you can see the value it can bring to your Azure based vSphere Cluster.  Please review [this link](https://docs.microsoft.com/en-us/azure/azure-vmware/set-up-mabs-for-avs) for more information.
+
+By no means was that an exhaustive review of Azure Backup and Azure VMware Solution integration, but hopefully you can see the value it can bring to your Azure based vSphere Cluster.  Please review [this link](https://docs.microsoft.com/en-us/azure/azure-vmware/set-up-mabs-for-avs) for more information.
